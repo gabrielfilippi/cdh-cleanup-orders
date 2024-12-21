@@ -38,5 +38,5 @@ Para ajustar o limite, adicione a seguinte linha ao arquivo wp-config.php:
 
 ```php
 define('CDH_CLEANUP_ORDERS_BATCH_LIMIT', 500);
-
+```
 Essa configuração é útil para otimizar o desempenho em servidores com diferentes capacidades de processamento.
